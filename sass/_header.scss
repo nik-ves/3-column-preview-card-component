@@ -1,0 +1,36 @@
+.header {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: $color-very-light-gray;
+
+    &__icon {
+        margin-bottom: 3rem;
+    }
+    
+    &__content {
+        display: flex;
+        border-radius: 10px;
+        overflow: hidden;
+        perspective: 1px;  
+    }
+
+    &__box {
+        padding: 4rem;
+        
+        &--1 {
+            background-color: $color-bright-orange;
+            color: $color-bright-orange;
+        }
+
+        &--2 {
+            background-color: $color-dark-cyan;
+            color: $color-dark-cyan;
+        }
+
+        &--3 {
+            background-color: $color-very-dark-cyan;
+            color: $color-very-dark-cyan;
+        }
+    }
+}

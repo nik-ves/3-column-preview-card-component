@@ -1,0 +1,31 @@
+.heading-1 {
+    font-family: $font-primary;
+    font-size: 4rem;
+    color: $color-very-light-gray;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    color: $color-transparent-white;
+    font-family: $font-secondary;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin: 3rem 0;
+}
+
+.btn {
+    border: 1px solid $color-transparent-white;
+    border-radius: 100px;
+    color: inherit;
+    font-family: $font-secondary;
+    font-size: 1.5rem;
+    padding: 1.3rem 2.5rem;
+    margin-top: 4rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: transparent;
+        border: 1px solid black;
+        color: black;
+    }
+}
