@@ -4,6 +4,10 @@
     align-items: center;
     background-color: $color-very-light-gray;
 
+    @media only screen and (max-width: 745px) {
+        padding: 10em 3em;
+    }
+
     &__icon {
         margin-bottom: 3rem;
     }
@@ -13,6 +17,10 @@
         border-radius: 10px;
         overflow: hidden;
         perspective: 1px;  
+
+        @media only screen and (max-width: 745px) {
+            flex-direction: column;
+        }
     }
 
     &__box {
